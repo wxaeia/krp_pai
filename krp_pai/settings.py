@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'krp_pai.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'database',
+        'NAME': 'databaseaws',
         'USER': 'postgre',
         'PASSWORD': 'pass12345',
         'HOST': 'database.cmxyo7dc4thg.ap-south-1.rds.amazonaws.com',
